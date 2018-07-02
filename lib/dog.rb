@@ -1,16 +1,15 @@
 
 
-class Dog 
-  
+class Dog
+
   @@all = []
 
   def initialize
     @@all < self
   end
 
-  def all
-    puts '#{@all}'
+  def self.all
+    puts '#{@@all}'
   end
 
 end
-
